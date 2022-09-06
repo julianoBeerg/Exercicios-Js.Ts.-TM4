@@ -19,7 +19,7 @@ let preguica = new Preguica("Sid", 3, 12, "Selva")
     console.log("3 - Bixo preguiça")
     let opc = Number(prompt("Escolha qual dos animais você quer ver: "))
   
-    console.log()    
+    console.log    
 
     switch(opc){
 
