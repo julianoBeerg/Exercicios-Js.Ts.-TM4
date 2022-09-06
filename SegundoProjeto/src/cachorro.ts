@@ -30,13 +30,11 @@ export class Cachorro extends Animal{
         console.log(`O nome do cachorro é: ${this.nome}\n` +
                     `A idade do cachorro é: ${this.idade}\n` +
                     `A expectativa de vida dele é: ${this.expVida}\n` +
-                    `A raça do cachorro é: ${this.raca}`)
-                    this.fazSom
-                    this.emitirSom
-                    this.locomocao
-                    this.abanarRabo
+                    `A raça do cachorro é: ${this.raca}`);
+                    this.fazSom();
+                    this.emitirSom();
+                    this.locomocao();
+                    this.abanarRabo();
     }
-
-
     
 }

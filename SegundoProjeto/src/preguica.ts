@@ -30,10 +30,10 @@ export class Preguica extends Animal{
                 `A idade do bixo preguiça é: ${this.idade}\n` +
                 `A expectativa de vida dele é: ${this.expVida}\n` +
                 `A habitat do bixo preguiça é: ${this.habitat}\n`)
-                this.fazSom
-                this.emitirSom
-                this.locomocao
-                this.dorme
+                this.fazSom()
+                this.emitirSom()
+                this.locomocao()
+                this.dorme()
     }
 
 }

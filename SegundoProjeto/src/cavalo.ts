@@ -30,9 +30,9 @@ export class Cavalo extends Animal{
                     `A idade do cavalo é: ${this.idade}\n` +
                     `A expectativa de vida dele é: ${this.expVida}\n` +
                     `O tipo do cavalo é: ${this.tipo}`)
-                    this.fazSom
-                    this.emitirSom
-                    this.locomocao
-                    this.abanarRabo
+                    this.fazSom()
+                    this.emitirSom()
+                    this.locomocao()
+                    this.abanarRabo()
     }   
 }
